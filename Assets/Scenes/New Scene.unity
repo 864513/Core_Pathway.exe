@@ -382,7 +382,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1550113088}
-  - {fileID: 1273274471}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &76737093 stripped
@@ -7211,6 +7210,7 @@ Transform:
   - {fileID: 1461530803}
   - {fileID: 117623954}
   - {fileID: 1328535084}
+  - {fileID: 2081718913}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!43 &820809961
@@ -9164,7 +9164,7 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3b01f5a99dcd2b948abfc0e8b6c4bcc2,
         type: 3}
       propertyPath: m_Name
-      value: untitled
+      value: Random Character
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -11028,7 +11028,7 @@ GameObject:
   - component: {fileID: 1273274473}
   - component: {fileID: 1273274472}
   m_Layer: 0
-  m_Name: Cube
+  m_Name: Cute Suprise
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -11042,12 +11042,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1273274470}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.920349, y: -1.0603962, z: -19.630398}
+  m_LocalRotation: {x: -0, y: -0.76347655, z: -0, w: 0.6458356}
+  m_LocalPosition: {x: -1.4010162, y: 25.33, z: 24.801958}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 76364644}
+  m_Father: {fileID: 1550113088}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1273274472
 MeshCollider:
@@ -14609,6 +14609,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8603750188871733094, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Vest Pouches
+      objectReference: {fileID: 0}
     - target: {fileID: -8201291575060242658, guid: 63213a17e7d1e28438f4af93b2747dd2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14634,6 +14639,21 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: f56e683efbc83964783ef62516a27175, type: 2}
+    - target: {fileID: -4596627944254525049, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Body
+      objectReference: {fileID: 0}
+    - target: {fileID: -4436644563202904038, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Glasses Frame
+      objectReference: {fileID: 0}
+    - target: {fileID: -4014290402702682573, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Beautiful Eye Sockets
+      objectReference: {fileID: 0}
     - target: {fileID: -3884222956543881913, guid: 63213a17e7d1e28438f4af93b2747dd2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14653,6 +14673,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 9.365
+      objectReference: {fileID: 0}
+    - target: {fileID: -2583206063176053283, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Watch
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 63213a17e7d1e28438f4af93b2747dd2,
         type: 3}
@@ -14674,6 +14699,31 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 5edb10291ca7d8b40bf5f3efba205617, type: 2}
+    - target: {fileID: 2622595509518255438, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Back Pouch
+      objectReference: {fileID: 0}
+    - target: {fileID: 3199806019297284412, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Beautiful Eyelashes
+      objectReference: {fileID: 0}
+    - target: {fileID: 3751006993810475222, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Mask
+      objectReference: {fileID: 0}
+    - target: {fileID: 5541712889353712440, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Glasses Eye things
+      objectReference: {fileID: 0}
+    - target: {fileID: 5631234628573743024, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Headset
+      objectReference: {fileID: 0}
     - target: {fileID: 5937755759888693098, guid: 63213a17e7d1e28438f4af93b2747dd2,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -14688,6 +14738,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalPosition.z
       value: 9.365
+      objectReference: {fileID: 0}
+    - target: {fileID: 7761510777575498039, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      propertyPath: m_Name
+      value: Beautiful Eyeballs
       objectReference: {fileID: 0}
     - target: {fileID: 7838394975774637093, guid: 63213a17e7d1e28438f4af93b2747dd2,
         type: 3}
@@ -14709,7 +14764,11 @@ PrefabInstance:
     - {fileID: 8972396553599530422, guid: 63213a17e7d1e28438f4af93b2747dd2, type: 3}
     - {fileID: 4996901664286556237, guid: 63213a17e7d1e28438f4af93b2747dd2, type: 3}
     - {fileID: -3987053188231941550, guid: 63213a17e7d1e28438f4af93b2747dd2, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 63213a17e7d1e28438f4af93b2747dd2,
+        type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1273274471}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 63213a17e7d1e28438f4af93b2747dd2, type: 3}
 --- !u!4 &1550113088 stripped
@@ -19160,8 +19219,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2081718912}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 12.806925, y: 1.4638833, z: -8.687806}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 25.38326, y: -4.464034, z: 2.9050512}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19171,7 +19230,7 @@ Transform:
   - {fileID: 1401913513}
   - {fileID: 1246390959}
   - {fileID: 1572380217}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 803388734}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2095226149
 PrefabInstance:
@@ -21048,7 +21107,6 @@ SceneRoots:
   - {fileID: 1943203672}
   - {fileID: 495019756}
   - {fileID: 803388734}
-  - {fileID: 2081718913}
   - {fileID: 508054920}
   - {fileID: 477796909}
   - {fileID: 1649739927}
